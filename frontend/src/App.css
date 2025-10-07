@@ -1,0 +1,167 @@
+/* General body and container styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header and Footer */
+.header, .footer {
+  width: 100vw;
+  background-color: #fff;
+}
+
+.header {
+  border-bottom: 2px solid #ccc;
+  padding: 5px 20px;
+}
+
+.main-content-wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Post Creation Section - Updated for new fields */
+.post-creation {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; /* Stacks the elements vertically */
+}
+
+/* Style for title and content input fields */
+.post-title-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 1.2em;
+}
+
+.post-content-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  resize: vertical; /* Allows user to resize the textarea vertically */
+}
+
+/* Image Upload Section */
+.image-upload-container {
+  margin-bottom: 10px;
+}
+
+.image-upload-label {
+  display: inline-block;
+  background-color: #f0f2f5;
+  color: #555;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.image-upload-input {
+  display: none; /* Hides the default file input button */
+}
+
+.post-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  align-self: flex-end; /* Aligns the button to the right side */
+}
+
+/* Post List */
+.post-list {
+  display: grid;
+  gap: 20px;
+}
+
+/* Individual Post */
+.post {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.post-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.post-content {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  color: #777;
+  font-size: 0.9em;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.righticon{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.deleteicon{
+  color: rgb(255, 91, 91);
+}
